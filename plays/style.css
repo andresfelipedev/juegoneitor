@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+:root{
+    --color__1:#236A75;
+    --color__2:#94E9F7;
+    --color__3:#49DEF5;
+    --difuminado__1: rgba(35, 106, 117, 0.8);
+    --difuminado__2: rgba(148, 233, 247, 0.3);
+    --difuminado__3: rgba(73, 222, 245, 0.6);
+    --difuminado__banner: rgba(44, 68, 71, 0.5);
+    --difuminado__banner2: rgba(44, 68, 71, 0.9);
+    --color__fuente: #F562A8;
+    --color__fuente2: #111;
+    --color__fuente3: #F5DF31;
+}
+/*########################################################### Header ###############################################################*/
+#header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+#header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#header ul{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: var(--difuminado__1);     
+}
+#header li{
+    list-style: none;
+}
+#header a{
+    color: var(--color__fuente3);
+    font-size: 20px;
+    text-decoration: none;
+}
+/*########################################################### Presentacion ###############################################################*/
+#presentacion{
+    background: url(../imagenes/play2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    
+
+}
+#presentacion div{
+    height: 100%;
+    width: 100%;
+    background-color: var(--difuminado__banner);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+
+}
+#presentacion h3{
+    font-size: 50px;
+    color: var(--color__fuente3);
+    margin: 30px;
+}
+/*########################################################### Descripción ###############################################################*/
+
+#parrafo{
+    height: auto;
+    width: auto;
+    margin: 10px 100px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--difuminado__2);
+    color: var(--color__fuente2);
+}
+#parrafo h3{
+    margin: 20px 0;
+    
+}
+
+/*########################################################### video ###############################################################*/
+#video{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*########################################################### menu ###############################################################*/
+#menu-rapido{
+    height: auto;
+    width: auto;
+    margin: 10px 100px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--difuminado__2);
+    color: var(--color__fuente2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-rapido ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    align-items: center;
+}
+#menu-rapido li{
+    height: 80px;
+    width:  350px;
+    background: url(../imagenes/play2.jpg);
+    background-position: center;
+    border-radius: 20px;
+    list-style: none;
+    margin: 20px 0;
+}
+#menu-rapido a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--difuminado__banner2);
+    color: var(--color__fuente3);
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+/*########################################################### Footer ###############################################################*/
+footer{
+    height: 5vh;
+    width: 100%;
+    background-color: var(--color__1);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+footer h4{
+    color: var(--color__2);
+    margin: 10px;
+}
